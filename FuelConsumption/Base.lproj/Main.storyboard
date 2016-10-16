@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FuelConsumption" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,61 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7qI-Y5-e9Y">
+                                <rect key="frame" x="10" y="20" width="580" height="300"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XT3-X8-YOw">
+                                <rect key="frame" x="60" y="341" width="480" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xLe-fI-Qzg">
+                                <rect key="frame" x="60" y="390" width="480" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nca-iN-S4Y">
+                                <rect key="frame" x="285" y="439" width="30" height="30"/>
+                                <state key="normal" title="Add"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wvo-xf-M8U">
+                                <rect key="frame" x="279" y="498" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XT3-X8-YOw" firstAttribute="centerX" secondItem="7qI-Y5-e9Y" secondAttribute="centerX" id="3uI-kt-nUa"/>
+                            <constraint firstItem="XT3-X8-YOw" firstAttribute="top" secondItem="7qI-Y5-e9Y" secondAttribute="bottom" constant="21" id="9hP-kn-eX0"/>
+                            <constraint firstAttribute="trailing" secondItem="7qI-Y5-e9Y" secondAttribute="trailing" constant="10" id="Phd-XG-pES"/>
+                            <constraint firstItem="xLe-fI-Qzg" firstAttribute="top" secondItem="XT3-X8-YOw" secondAttribute="bottom" constant="19" id="TfD-3a-wsr"/>
+                            <constraint firstItem="nca-iN-S4Y" firstAttribute="top" secondItem="xLe-fI-Qzg" secondAttribute="bottom" constant="19" id="URI-gc-NPM"/>
+                            <constraint firstItem="7qI-Y5-e9Y" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="XBM-bP-9NY"/>
+                            <constraint firstItem="nca-iN-S4Y" firstAttribute="centerX" secondItem="xLe-fI-Qzg" secondAttribute="centerX" id="XRG-GJ-Rb8"/>
+                            <constraint firstItem="XT3-X8-YOw" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="YVF-s5-xDO"/>
+                            <constraint firstItem="xLe-fI-Qzg" firstAttribute="width" secondItem="XT3-X8-YOw" secondAttribute="width" id="ela-8P-eop"/>
+                            <constraint firstItem="Wvo-xf-M8U" firstAttribute="centerX" secondItem="nca-iN-S4Y" secondAttribute="centerX" id="ntl-qf-OKf"/>
+                            <constraint firstItem="7qI-Y5-e9Y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="pHX-nI-hPC"/>
+                            <constraint firstItem="7qI-Y5-e9Y" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="qRK-vU-DZP"/>
+                            <constraint firstItem="Wvo-xf-M8U" firstAttribute="top" secondItem="nca-iN-S4Y" secondAttribute="bottom" constant="29" id="sxG-pZ-GEe"/>
+                            <constraint firstItem="xLe-fI-Qzg" firstAttribute="centerX" secondItem="XT3-X8-YOw" secondAttribute="centerX" id="ytp-Dn-2TN"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="addButton" destination="nca-iN-S4Y" id="pJ4-jH-CA5"/>
+                        <outlet property="averageConsumptionLabel" destination="Wvo-xf-M8U" id="1WM-sQ-s9n"/>
+                        <outlet property="fuelAddedInput" destination="xLe-fI-Qzg" id="IqJ-4r-UzZ"/>
+                        <outlet property="odometerInput" destination="XT3-X8-YOw" id="kcM-kP-Shq"/>
+                        <outlet property="tableView" destination="7qI-Y5-e9Y" id="8ll-dA-ePk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="408" y="337"/>
         </scene>
     </scenes>
 </document>

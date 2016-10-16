@@ -10,15 +10,45 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var odometerInput: UITextField!
+    @IBOutlet weak var fuelAddedInput: UITextField!
+    @IBOutlet weak var addButton: UIButton!
+    @IBOutlet weak var averageConsumptionLabel: UILabel!
+    
+    var data:[String] = [];
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        //tableView.dataSource = new datasource
     }
-
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
+}
+
+extension ViewController:UITableViewDataSource, UITableViewDelegate {
+    
+    //TODO: Make new class for datasource/delegate
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        return UITableViewCell();
+    }
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1;
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return data.count;
+    }
+    
 
 
 }
