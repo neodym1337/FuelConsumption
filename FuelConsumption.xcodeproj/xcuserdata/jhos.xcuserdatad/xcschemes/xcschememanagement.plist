@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FuelConsumption.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>D86D2CA21DB3B6000089ADAF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D86D2CB91DB3B6010089ADAF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D86D2CC41DB3B6010089ADAF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

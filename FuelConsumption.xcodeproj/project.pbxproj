@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D86D2CA71DB3B6010089ADAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86D2CA61DB3B6010089ADAF /* AppDelegate.swift */; };
+		D86D2CA91DB3B6010089ADAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86D2CA81DB3B6010089ADAF /* ViewController.swift */; };
+		D86D2CAC1DB3B6010089ADAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86D2CAA1DB3B6010089ADAF /* Main.storyboard */; };
+		D86D2CAF1DB3B6010089ADAF /* FuelConsumption.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D86D2CAD1DB3B6010089ADAF /* FuelConsumption.xcdatamodeld */; };
+		D86D2CB11DB3B6010089ADAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D86D2CB01DB3B6010089ADAF /* Assets.xcassets */; };
+		D86D2CB41DB3B6010089ADAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86D2CB21DB3B6010089ADAF /* LaunchScreen.storyboard */; };
+		D86D2CBF1DB3B6010089ADAF /* FuelConsumptionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86D2CBE1DB3B6010089ADAF /* FuelConsumptionTests.swift */; };
+		D86D2CCA1DB3B6010089ADAF /* FuelConsumptionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86D2CC91DB3B6010089ADAF /* FuelConsumptionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D86D2CBB1DB3B6010089ADAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D86D2C9B1DB3B6000089ADAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D86D2CA21DB3B6000089ADAF;
+			remoteInfo = FuelConsumption;
+		};
+		D86D2CC61DB3B6010089ADAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D86D2C9B1DB3B6000089ADAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D86D2CA21DB3B6000089ADAF;
+			remoteInfo = FuelConsumption;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D86D2CA31DB3B6000089ADAF /* FuelConsumption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuelConsumption.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86D2CA61DB3B6010089ADAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D86D2CA81DB3B6010089ADAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D86D2CAB1DB3B6010089ADAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D86D2CAE1DB3B6010089ADAF /* FuelConsumption.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FuelConsumption.xcdatamodel; sourceTree = "<group>"; };
+		D86D2CB01DB3B6010089ADAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D86D2CB31DB3B6010089ADAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D86D2CB51DB3B6010089ADAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D86D2CBA1DB3B6010089ADAF /* FuelConsumptionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuelConsumptionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86D2CBE1DB3B6010089ADAF /* FuelConsumptionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelConsumptionTests.swift; sourceTree = "<group>"; };
+		D86D2CC01DB3B6010089ADAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D86D2CC51DB3B6010089ADAF /* FuelConsumptionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuelConsumptionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86D2CC91DB3B6010089ADAF /* FuelConsumptionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelConsumptionUITests.swift; sourceTree = "<group>"; };
+		D86D2CCB1DB3B6010089ADAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D86D2CA01DB3B6000089ADAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86D2CB71DB3B6010089ADAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86D2CC21DB3B6010089ADAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D86D2C9A1DB3B6000089ADAF = {
+			isa = PBXGroup;
+			children = (
+				D86D2CA51DB3B6010089ADAF /* FuelConsumption */,
+				D86D2CBD1DB3B6010089ADAF /* FuelConsumptionTests */,
+				D86D2CC81DB3B6010089ADAF /* FuelConsumptionUITests */,
+				D86D2CA41DB3B6000089ADAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D86D2CA41DB3B6000089ADAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D86D2CA31DB3B6000089ADAF /* FuelConsumption.app */,
+				D86D2CBA1DB3B6010089ADAF /* FuelConsumptionTests.xctest */,
+				D86D2CC51DB3B6010089ADAF /* FuelConsumptionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D86D2CA51DB3B6010089ADAF /* FuelConsumption */ = {
+			isa = PBXGroup;
+			children = (
+				D86D2CA61DB3B6010089ADAF /* AppDelegate.swift */,
+				D86D2CA81DB3B6010089ADAF /* ViewController.swift */,
+				D86D2CAA1DB3B6010089ADAF /* Main.storyboard */,
+				D86D2CB01DB3B6010089ADAF /* Assets.xcassets */,
+				D86D2CB21DB3B6010089ADAF /* LaunchScreen.storyboard */,
+				D86D2CB51DB3B6010089ADAF /* Info.plist */,
+				D86D2CAD1DB3B6010089ADAF /* FuelConsumption.xcdatamodeld */,
+			);
+			path = FuelConsumption;
+			sourceTree = "<group>";
+		};
+		D86D2CBD1DB3B6010089ADAF /* FuelConsumptionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D86D2CBE1DB3B6010089ADAF /* FuelConsumptionTests.swift */,
+				D86D2CC01DB3B6010089ADAF /* Info.plist */,
+			);
+			path = FuelConsumptionTests;
+			sourceTree = "<group>";
+		};
+		D86D2CC81DB3B6010089ADAF /* FuelConsumptionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D86D2CC91DB3B6010089ADAF /* FuelConsumptionUITests.swift */,
+				D86D2CCB1DB3B6010089ADAF /* Info.plist */,
+			);
+			path = FuelConsumptionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D86D2CA21DB3B6000089ADAF /* FuelConsumption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D86D2CCE1DB3B6010089ADAF /* Build configuration list for PBXNativeTarget "FuelConsumption" */;
+			buildPhases = (
+				D86D2C9F1DB3B6000089ADAF /* Sources */,
+				D86D2CA01DB3B6000089ADAF /* Frameworks */,
+				D86D2CA11DB3B6000089ADAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuelConsumption;
+			productName = FuelConsumption;
+			productReference = D86D2CA31DB3B6000089ADAF /* FuelConsumption.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D86D2CB91DB3B6010089ADAF /* FuelConsumptionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D86D2CD11DB3B6010089ADAF /* Build configuration list for PBXNativeTarget "FuelConsumptionTests" */;
+			buildPhases = (
+				D86D2CB61DB3B6010089ADAF /* Sources */,
+				D86D2CB71DB3B6010089ADAF /* Frameworks */,
+				D86D2CB81DB3B6010089ADAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D86D2CBC1DB3B6010089ADAF /* PBXTargetDependency */,
+			);
+			name = FuelConsumptionTests;
+			productName = FuelConsumptionTests;
+			productReference = D86D2CBA1DB3B6010089ADAF /* FuelConsumptionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D86D2CC41DB3B6010089ADAF /* FuelConsumptionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D86D2CD41DB3B6010089ADAF /* Build configuration list for PBXNativeTarget "FuelConsumptionUITests" */;
+			buildPhases = (
+				D86D2CC11DB3B6010089ADAF /* Sources */,
+				D86D2CC21DB3B6010089ADAF /* Frameworks */,
+				D86D2CC31DB3B6010089ADAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D86D2CC71DB3B6010089ADAF /* PBXTargetDependency */,
+			);
+			name = FuelConsumptionUITests;
+			productName = FuelConsumptionUITests;
+			productReference = D86D2CC51DB3B6010089ADAF /* FuelConsumptionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D86D2C9B1DB3B6000089ADAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Johan Hosk";
+				TargetAttributes = {
+					D86D2CA21DB3B6000089ADAF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D86D2CB91DB3B6010089ADAF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D86D2CA21DB3B6000089ADAF;
+					};
+					D86D2CC41DB3B6010089ADAF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D86D2CA21DB3B6000089ADAF;
+					};
+				};
+			};
+			buildConfigurationList = D86D2C9E1DB3B6000089ADAF /* Build configuration list for PBXProject "FuelConsumption" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D86D2C9A1DB3B6000089ADAF;
+			productRefGroup = D86D2CA41DB3B6000089ADAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D86D2CA21DB3B6000089ADAF /* FuelConsumption */,
+				D86D2CB91DB3B6010089ADAF /* FuelConsumptionTests */,
+				D86D2CC41DB3B6010089ADAF /* FuelConsumptionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D86D2CA11DB3B6000089ADAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86D2CB41DB3B6010089ADAF /* LaunchScreen.storyboard in Resources */,
+				D86D2CB11DB3B6010089ADAF /* Assets.xcassets in Resources */,
+				D86D2CAC1DB3B6010089ADAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86D2CB81DB3B6010089ADAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86D2CC31DB3B6010089ADAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D86D2C9F1DB3B6000089ADAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86D2CA91DB3B6010089ADAF /* ViewController.swift in Sources */,
+				D86D2CAF1DB3B6010089ADAF /* FuelConsumption.xcdatamodeld in Sources */,
+				D86D2CA71DB3B6010089ADAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86D2CB61DB3B6010089ADAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86D2CBF1DB3B6010089ADAF /* FuelConsumptionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86D2CC11DB3B6010089ADAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86D2CCA1DB3B6010089ADAF /* FuelConsumptionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D86D2CBC1DB3B6010089ADAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D86D2CA21DB3B6000089ADAF /* FuelConsumption */;
+			targetProxy = D86D2CBB1DB3B6010089ADAF /* PBXContainerItemProxy */;
+		};
+		D86D2CC71DB3B6010089ADAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D86D2CA21DB3B6000089ADAF /* FuelConsumption */;
+			targetProxy = D86D2CC61DB3B6010089ADAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D86D2CAA1DB3B6010089ADAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D86D2CAB1DB3B6010089ADAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D86D2CB21DB3B6010089ADAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D86D2CB31DB3B6010089ADAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D86D2CCC1DB3B6010089ADAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D86D2CCD1DB3B6010089ADAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D86D2CCF1DB3B6010089ADAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FuelConsumption/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johan.FuelConsumption;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D86D2CD01DB3B6010089ADAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FuelConsumption/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johan.FuelConsumption;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D86D2CD21DB3B6010089ADAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FuelConsumptionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johan.FuelConsumptionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuelConsumption.app/FuelConsumption";
+			};
+			name = Debug;
+		};
+		D86D2CD31DB3B6010089ADAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FuelConsumptionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johan.FuelConsumptionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuelConsumption.app/FuelConsumption";
+			};
+			name = Release;
+		};
+		D86D2CD51DB3B6010089ADAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FuelConsumptionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johan.FuelConsumptionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FuelConsumption;
+			};
+			name = Debug;
+		};
+		D86D2CD61DB3B6010089ADAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FuelConsumptionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johan.FuelConsumptionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FuelConsumption;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D86D2C9E1DB3B6000089ADAF /* Build configuration list for PBXProject "FuelConsumption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D86D2CCC1DB3B6010089ADAF /* Debug */,
+				D86D2CCD1DB3B6010089ADAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D86D2CCE1DB3B6010089ADAF /* Build configuration list for PBXNativeTarget "FuelConsumption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D86D2CCF1DB3B6010089ADAF /* Debug */,
+				D86D2CD01DB3B6010089ADAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D86D2CD11DB3B6010089ADAF /* Build configuration list for PBXNativeTarget "FuelConsumptionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D86D2CD21DB3B6010089ADAF /* Debug */,
+				D86D2CD31DB3B6010089ADAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D86D2CD41DB3B6010089ADAF /* Build configuration list for PBXNativeTarget "FuelConsumptionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D86D2CD51DB3B6010089ADAF /* Debug */,
+				D86D2CD61DB3B6010089ADAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D86D2CAD1DB3B6010089ADAF /* FuelConsumption.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D86D2CAE1DB3B6010089ADAF /* FuelConsumption.xcdatamodel */,
+			);
+			currentVersion = D86D2CAE1DB3B6010089ADAF /* FuelConsumption.xcdatamodel */;
+			path = FuelConsumption.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D86D2C9B1DB3B6000089ADAF /* Project object */;
+}
